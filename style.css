@@ -3,6 +3,7 @@
       margin: 0;
       font-family:Arial;
       border:border-box;
+      
 }
 
 .nav_bar
@@ -23,7 +24,7 @@
 
 .logo
 {
-
+      
       height: 50px;
       width:100%;
       background-image:url("amazon_logo.png");
@@ -33,7 +34,7 @@
 {
       border:1px solid transparent;
       
-
+      
 }
 
 .border:hover
@@ -214,7 +215,7 @@ span{
       background-color:#e2e7e6;
 }
 
-.shop_section p:hover
+.shop_section a:hover
 {
       color:red;
 }
@@ -244,9 +245,10 @@ span{
 
 }
 
-.box_content p{
+.box_content a{
 
       color: #007185;
+      text-decoration:none;
 }
 
 .cos_signin
